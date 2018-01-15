@@ -1,11 +1,13 @@
 ---
-category: Stuff
+category: new
 path: '/stuff/:id'
 title: 'Delete a thing'
-type: 'DELETE'
+type: 'hi'
 
 layout: nil
 ---
+
+ [toc]
 
 This method allows the user to post a new thing to his stuff.
 
