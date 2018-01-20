@@ -7,7 +7,7 @@
 ##「影之诗」中的闪卡特效
 去年cygames在unite2017 Tokyo上分享了他们制作「影之诗」的经历，其中专门讲了他们是如何制作卡牌特效的。对相关的具体内容感兴趣的朋友可以看看[游戏葡萄](http://youxiputao.com/articles/12060)和[旅法师营地](http://www.iyingdi.cn/web/article/search/44753?seed=17)的文章。
 其实本质上就是一个有多种动画效果的shader，只是他们用一张图的rgb三个通道，分别作为不同效果的遮罩层，并且详细指定了各通道实现的效果类型。这样既能通过对遮罩层的详细绘制来控制效果的细节，又能通过shaderlab的便利在unity编辑器里通过调节不同参数实现不同效果。
-<img src="http://wx1.sinaimg.cn/mw690/006nZWNtgy1fdgwdb6dvbg30hj0mw4qx.gif" height="500px" /> &emsp;&emsp; <img src="http://wx1.sinaimg.cn/mw690/006nZWNtgy1fdhucthy6gg30gp0mke86.gif" height="500px" />
+<img src="http://wx1.sinaimg.cn/mw690/006nZWNtgy1fdgwdb6dvbg30hj0mw4qx.gif" height="400px" /> <img src="http://wx1.sinaimg.cn/mw690/006nZWNtgy1fdhucthy6gg30gp0mke86.gif" height="400px" />
 
 「影之诗」中闪卡的效果大致分为三种(毕竟他们只用一张图的三个通道做遮罩层)。 
 
